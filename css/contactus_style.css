@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(231, 230, 230);
+}
+
+html, body {
+  height: 100%;
+  overflow: visible; /* Make sure this is set to auto or visible */
+}
+
