@@ -1,6 +1,6 @@
 .entry-header {
     padding: 2rem 0 !important;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../portfolioimages/portfoliocarousel1.jpg);
+    background-image: linear-gradient( rgba(75, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../portfolioimages/portfoliocarousel1.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
