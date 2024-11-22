@@ -62,33 +62,103 @@
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-6">
-                <div id="carouselExample" class="carousel slide">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="../portfolioimages/portfoliocarousel1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../portfolioimages/portfoliocarousel2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../portfolioimages/portfoliocarousel3.jpg" class="d-block w-100" alt="...">
+
+                <a href="javascript:void(0);" id="myBtn" style="text-decoration:none">
+                  <div id="carouselSmall" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="../images/OrthoJack/lobby.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="4000">
+                        <img src="../images/OrthoJack/pharmacy.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item"  data-bs-interval="4000">
+                        <img src="../images/OrthoJack/hall.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="4000">
+                        <img src="../images/OrthoJack/mainconsult.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="4000">
+                        <img src="../images/OrthoJack/gym.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="4000">
+                        <img src="../images/OrthoJack/operating.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item"  data-bs-interval="4000">
+                        <img src="../images/OrthoJack/consult2.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="4000">
+                        <img src="../images/OrthoJack/consult3.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item"  data-bs-interval="4000">
+                        <img src="../images/OrthoJack/outside.JPG" class="d-block w-100" alt="...">
+                      </div>
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                </a>
+
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="carouselBig" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../images/OrthoJack/lobby.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/pharmacy.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/hall.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/mainconsult.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/gym.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/operating.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/consult2.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/consult3.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/OrthoJack/outside.JPG" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselBig" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselBig" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
+                
               </div>
               <div class="col-lg-6">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
                 <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
               </div>
             </div>
+          </div>
+
+
+          <div class="container col-xxl-8 px-4 py-5">
+                <div id="comparison" onmousemove="moveDivisor(event)">
+                  <figure>
+                    <div id="divisor"></div>
+                  </figure>
+                </div>
           </div>
 
     </section>
@@ -115,6 +185,8 @@
       </div>
 
     </section>
+
+    <script src="../js/script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
