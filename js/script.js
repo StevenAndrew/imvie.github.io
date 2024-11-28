@@ -23,9 +23,7 @@ window.onclick = function(event) {
   }
 }
 
-var divisor = document.getElementById("divisor");
-var comparisonWidth = document.getElementById("comparison").clientWidth;
-
-function moveDivisor(e) {
-  divisor.style.width = (e.offsetX * 100 / comparisonWidth) + "%";
+function slide(){
+  let slideValue = document.getElementById("slider").value;
+  document.getElementById("img2").style.clipPath = "polygon(0 0," + slideValue + "% 0," + slideValue + "% 100%, 0 100%)";
 }

@@ -54,37 +54,48 @@
     cursor: pointer;
   }
 
-  div#comparison {
-    width: 60vw;
-    height: 60vw;
-    max-width: 600px;
-    max-height: 600px;
-    overflow: hidden;
-  }
-  
-  div#comparison figure {
-    background-image: url(../images/OrthoJack/IMG_0690.jpg);
-    background-size: cover;
-    position: relative;
-    font-size: 0;
-    width: 100%;
-    height: 100%;
+  *,
+  *::before,
+  *::after{
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
-  
-  div#comparison figure>img {
+
+  .containerComp{
+    border: 1px solid black;
+    height: 80vmin;
+    width: 95vmin;
     position: relative;
-    width: 100%;
-  }
-  
-  div#comparison figure div {
-    background-image: url(../images/OrthoJack/outside2.jpg);
-    background-size: cover;
-    position: absolute;
-    width: 50%;
-    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-    bottom: 0;
-    height: 100%;
   }
-  
+
+  .comparisonImg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  #img2{
+    clip-path: polygon(0 0, 50% 0 , 50% 100%, 0 100% );
+  }
+
+  #slider{
+    position: relative;
+    -webkit-appearance: none;
+    width: calc(100% + 40px);
+    height: 100%;
+    margin-left: -20px;
+    background-color: transparent;
+    outline: none;
+  }
+  #slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 40px;
+    width: 40px;
+    background: url(../icons/double-arrow.png), rgba(255, 255, 255, 0.3);
+    border: 3px solid white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+  }
