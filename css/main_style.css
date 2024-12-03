@@ -12,6 +12,12 @@ body{
     
 }
 
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
 .cardImvie{
     background-position: center center;
     background-repeat: no-repeat;
