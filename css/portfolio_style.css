@@ -2,7 +2,7 @@ body{
     background-color: rgb(231, 230, 230);
 }
 
-.album{
+/* .album{
     opacity: 0.85;
     transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -13,13 +13,13 @@ body{
 .album:hover{
     filter: brightness(50%);
     opacity: 1;
-}
+} */
 
-.containerA {
+/* .containerA {
     position: relative;
     text-align: center;
     color: transparent;
-  }
+  } */
 
 .centered {
     position: absolute;
@@ -29,6 +29,6 @@ body{
     font-size: larger;
 }
 
-.containerA:hover{
+/* .containerA:hover{
     color: whitesmoke;
-}
+} */
