@@ -19,7 +19,6 @@ var btn5 = document.getElementById("myBtn5");
 var btn6 = document.getElementById("myBtn6");
 var btn7 = document.getElementById("myBtn7");
 var btn8 = document.getElementById("myBtn8");
-var span = document.getElementsByClassName("close")[0];
 
 btn1.onclick = function() {
   modal1.style.display = "flex";
@@ -51,17 +50,6 @@ btn7.onclick = function() {
 
 btn8.onclick = function() {
   modal8.style.display = "flex";
-}
-
-span.onclick = function() {
-  modal1.style.display = "none";
-  modal2.style.display = "none";
-  modal3.style.display = "none";
-  modal4.style.display = "none";
-  modal5.style.display = "none";
-  modal6.style.display = "none";
-  modal7.style.display = "none";
-  modal8.style.display = "none";
 }
 
 window.onclick = function(event) {
