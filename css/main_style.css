@@ -3,7 +3,7 @@ body{
 }
 
 .hero-img{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/home_bg_img2.jpeg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/home_bg_img3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
