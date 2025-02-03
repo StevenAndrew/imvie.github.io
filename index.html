@@ -84,8 +84,7 @@
 
     </section>
 
-    <section> <!-- Tentang Kami -->
-
+    <section> <!-- AboutUs -->
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -100,7 +99,25 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <hr class="featurette-divider">
+
+    <section> <!-- OurProcess -->
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/designprocess.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  height="800" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Our Process</h1>
+            <p class="lead">At IMVIE Design, we believe every space has its own unique story to tell. Our process begins with in-depth consultations with clients to understand their vision, style, and needs. We then bring their ideas to life through realistic 3D designs, allowing clients to visualize the final outcome before execution. Collaborating closely with trusted contractors, we ensure every detail is flawlessly crafted, delivering a space that perfectly balances aesthetics and functionality.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <hr class="featurette-divider">
@@ -144,6 +161,8 @@
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" style="align-items: center;
       justify-content: center;" >
+
+        <button style="border: none; background: none" id="IntDesign">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg cardImvie card1">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -154,7 +173,9 @@
               </ul>
             </div>
           </div>
+        </button>
 
+        <button style="border: none; background: none" id="Contractor">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg cardImvie card2">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -165,7 +186,9 @@
               </ul>
             </div>
           </div>
+        </button>
     
+        <button style="border: none; background: none" id="Architecture">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg cardImvie card3">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
@@ -174,6 +197,59 @@
               <ul class="d-flex list-unstyled mt-auto">
                 <img src="./images/ImvieLogoBlackBgTransparent.png" alt="imvie" width="32" height="32" class="rounded-circle border border-white">           
               </ul>
+            </div>
+          </div>
+        </button>
+
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="featurette-divider">
+
+    <section>
+
+      <div class="container col-xxl-8 px-4 py-5" id="IntDesignContent">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/processHome.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Interior Design</h1>
+            <p class="lead">From concept to completion, we create personalized and stunning interiors that reflect your vision, combining aesthetics with practicality.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-5" id="ContractorContent">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/Forestopia/before.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Contractor</h1>
+            <p class="lead">With a team of skilled professionals, we handle construction and renovation projects, ensuring high-quality execution that brings designs to life.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-5" id="ArchitectureContent">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/Forestopia/title.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Architecture</h1>
+            <p class="lead">We design innovative and sustainable architectural solutions, crafting spaces that are not only beautiful but also structurally sound and efficient.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
             </div>
           </div>
         </div>
@@ -205,6 +281,7 @@
     </section>
 
     <script src="./js/removehtml.js"></script>
+    <script src="./js/Home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -68,6 +68,45 @@ body{
     opacity: 1;
 }
 
+#IntDesignContent{
+    display: none; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#ContractorContent{
+    display: none; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#ArchitectureContent{
+    display: none; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#IntDesignContent.visible {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+#ContractorContent.visible {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+#ArchitectureContent.visible {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
 @media (max-width: 373px){
     .hero-img{
         height: 40em;
